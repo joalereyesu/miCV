@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                color: white;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 70px; 
+                line-height: 25px;
+                border-radius: 4px;
+            }
+            .header {
+                padding: 80px;
+                background-color: rgb(214, 149, 29);
+                font-family: '-apple-system';
+            }
+            .header a {
+                float: right;
+                color: white;
+                text-align: center;
+                padding: 12px;
+                text-decoration: none;
+                font-size: 18px; 
+                line-height: 25px;
+                border-radius: 4px;
+            }
+            .header a.active{
+                background-color: white;
+                color: rgb(214, 149, 29);
+            }
+            .header a:hover{
+                background-color: #ddd;
+                color: rgb(214, 149, 29);
+            }
+            .about {
+                font-size: 20px;
+                font-family: cursive;
+                text-align: center;
+                color: grey;
+            }
+            .name {
+                text-align: center;
+                font-size: 50px; 
+                color: rgb(214, 149, 29); 
+                font-family: Impact;
+            }
+            .info {
+                font-size: 20px;
+                font-family:'Courier New', Courier, monospace;
+                text-align: center;
+            }
+            li {
+                list-style-type: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "header">
+            <div>
+                <a class="header a" style = "position: absolute; top: 20px; right: 15px;" href = "/References">Referencias</a>
+                <a class="active" style = "position: absolute; top: 20px; right: 135px;" href = ".Professional">Info Profesional</a>
+                <a class="header a" style = "position: absolute; top: 20px; right: 290px;" href="/Personal">Info Personal</a>
+                <a class="header a" style = "position: absolute; top: 20px; right: 425px;" href="/">Home</a>
+                <h1> Informacion Profesional </h1>
+            </div>
+        </div>
+        <h2 class = "name" style = "position: absolute; left: 150px; top: 300px;">TECONOLOGIAS</h2>
+        <ul style = "position: absolute; left: 210px; top: 400px;">
+            {% for tecno in tec %}
+                <li class = "info">{{tecno}}</li>
+            {% endfor %}
+        </ul>
+        <h3 class = "name" style = "position: absolute; left: 800px; top: 295px;">EDUCACION</h3>
+        <ul style = "position: absolute; left: 700px; top: 400px;">
+            {% for study in educacion %}
+                <li class = "info">{{study}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+    
+</html>

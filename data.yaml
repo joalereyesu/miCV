@@ -1,0 +1,40 @@
+#MI CV
+fotografia: avatar.png
+informacion: 
+  autor: Jose Reyes 
+  titulo: Curriculum Vitae
+informacionPersonal: 
+  nombreCompleto: Jose Alejandro Reyes Unda
+  lugarNacimiento: Guatemala 
+  idiomas:
+    - Ingles
+    - Español
+  edad: 19 
+  acercaDeMi: Soy una persona dedicada que le encantra destacar. Me gusta crear cosas nuevas por medio de la tecnologia y la inovacion. Me encanta aprender cosas nuevas que algun dia me ayudaran a ser mejor profesional. Me gusta trabajar en equipo ya que se crea mas creatividad y armonia. 
+  experiencia: Estudiante en la Universidad Francisco Marroquin, Facultad de Ciencias Economicas en la carrera Computer Science
+  intereses:
+    - Programar 
+    - Diseñar
+    - Conocer nuevas personas
+    - Ayuda social
+informacionProfesional:
+  tecnologias:
+  - Python
+  - Java
+  - C
+  - C#
+  - HTML
+  educacion: 
+  - Colegio Valle Verde
+  - Universidad Francisco Marroquin
+informacionReferencias:
+  referenciasLaborales:
+    - Marcos Cano
+    - Yosef Maldonado
+    - Marcela Porta
+    - Carlos Carrera
+  referenciasPersonales:
+    - Marcelo Garcia
+    - Nicko Nolte
+    - Esteban Samayoa
+    - Marcela Melgar
